@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs') %>
+
+<h1 style="margin-top: 100px;font-family: 'Open Sans', sans-serif;" ><u>Women's Day</u></h1>
+<p style="font-size: 30px;"> <%= startingContent %> </p>
+
+
+<%  posts.forEach(function(post){ %>
+<hr>
+
+<h1 style="font-family: 'Open Sans', sans-serif;font-size: 30px;"><u><%=post.title%></u></h1>
+<p style="font-size: 30px;">
+<%=post.content%>
+<!-- <a href="/posts/<%=post._id%>">Read More</a> -->
+</p>
+
+
+<% }) %>
+
+
+<a href="/compose"><button class="btn btn-secondary"> Compose</button></a>
+<p>(feel free to publish your story on our website which will be totally anonymous and secure)</p>
+
+
+
+<%- include('partials/footer.ejs') %>

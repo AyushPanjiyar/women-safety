@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>ProtectHer</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/sign-in/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script&family=Grape+Nuts&family=Open+Sans:wght@300&family=Rubik+Moonrocks&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      href="/docs/5.1/assets/img/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.1/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.1/assets/img/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg"
+      color="#7952b3"
+    />
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#7952b3" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="public/styles.css" rel="stylesheet" />
+  </head>
+  <body class="text-center">
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark"
+      style="padding: 18px; background: transparent"
+    >
+      <a class="navbar-brand" href="#" style="margin-right: 720px"
+        ><img
+          src="https://i.ibb.co/hFfTYGH/FINAL-LOGO.png"
+          style="height: 45px; width: 270px"
+          alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a
+              class="nav-link"
+              href="/"
+              style="font-size: 15px; color: black; font-weight: 800"
+              >Home <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/joinus"
+              style="font-size: 15px; color: black; font-weight: 800"
+              >Join us</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              style="font-size: 15px; color: black; font-weight: 800"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Options
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/blog">Blog</a>
+              <a class="dropdown-item" href="/joinus">About us</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/compose">Tell us your Story</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/map"
+              style="font-size: 15px; color: black; font-weight: 800"
+              >Map</a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+        </form>
+      </div>
+    </nav>
+    <div class="aboutusimg" style="margin-top: 0px">
+      <h1 style="position: absolute; top: 60px; left: 46vw; color: aliceblue">
+        About Us
+      </h1>
+    </div>
+    <div class="info-aboutus">
+      <h4>
+        <strong
+          >Our company consistently works to realize its vision, mission and
+          goals in collaboration and partnership with its stakeholders,
+          including government, corporate sector and rural community.,</strong
+        >
+      </h4>
+
+      <h2 style="color: black; margin-top: 40px">
+        We work towrads making the world a better place
+      </h2>
+
+      <h5 style="margin-top: 40px">
+        ProtectHer recognizes that overall the critical mass for a change and
+        deterrence from attacks on activists will depend upon the mobilization
+        of civil society and people’s Replica Balenciaga Bags participation at
+        all levels within the source, transit and destination points of sex
+        trafficking - whereby the likes of worldwide Freedom Now campaign and
+        ensuring livelihood support have been very effective.
+      </h5>
+
+      <button class="btn btn-primary" style="margin-top: 20px">
+        <a style="color: aliceblue" href="/joinus"> join us</a>
+      </button>
+    </div>
+
+    <div class="info-img">
+      <iframe
+        src="https://player.vimeo.com/video/227008543?h=2291f27138"
+        width="640"
+        height="360"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <p>
+        <a href="https://vimeo.com/227008543"> </a
+        ><a href="https://vimeo.com/user26734009"></a
+        ><a href="https://vimeo.com"></a>.
+      </p>
+    </div>
+
+    <div class="temp-img"></div>
+    <h2 style="color: aliceblue; position: absolute; top: 950px; left: 14vw">
+      Best protection a women can have is Courage..
+    </h2>
+
+    <div class="box-img1">
+      <h2 style="color: aliceblue; margin-top: 10px"><u>Transparency</u></h2>
+      <h5 style="color: black; margin-top: 40px">
+        Financial transparency is represented as the willingness and ability of
+        an NGO to provide information
+      </h5>
+    </div>
+    <div class="box-img2">
+      <h2 style="color: aliceblue; margin-top: 10px"><u>Vision</u></h2>
+      <h5 style="color: black; margin-top: 60px">
+        We know exactly on which part of our society we want to work
+      </h5>
+    </div>
+    <div class="box-img3">
+      <h2 style="color: aliceblue; margin-top: 10px"><u>Diversity</u></h2>
+      <h5 style="color: black; margin-top: 60px">
+        In our staff we have a whole lot of diversified and unbaised staffs
+      </h5>
+    </div>
+    <div class="box-img4">
+      <h2 style="color: aliceblue; margin-top: 10px"><u>Accountability</u></h2>
+      <h5 style="color: black; margin-top: 40px">
+        A clearly defined accountability to all stakeholders; the poor, donors,
+        partners, governments.
+      </h5>
+    </div>
+    <hr />
+    <div
+      class="finalsay"
+      style="margin-top: 250px; margin-right: 350px; margin-bottom: 70px"
+    >
+      <h1>
+        Are you ready to add good deeds in your life?<button
+          class="btn btn-secondary"
+          style="margin-left: 100px"
+        >
+          <a href="/joinus"> Join Us Now!</a>
+        </button>
+      </h1>
+      <h6 style="margin-right: 250px">
+        To build a just and humane world where ,all beings co-exist in harmony.
+      </h6>
+    </div>
+
+    <!-- about our team -->
+    <div>
+      <section id="team" class="team team-bg py-5">
+        <div class="container">
+          <div class="section-title" style="margin-left: 450px; width: 500px">
+            <p class="main-team-subheading">Team</p>
+            <p class="main-team-heading">Our Developer Team</p>
+          </div>
+
+          <div class="row" style="width: 60vw; margin-left: 250px">
+            <div class="col-lg-6">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="https://c.tenor.com/l0QxRnk3iJIAAAAM/laudalasan.gif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <p class="member-heading">Aryan Singh</p>
+                  <span>Lead developer</span>
+                  <p class="member-para">Hey!</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                    <a href=""><i class="fa fa-facebook-f team-icon"></i></a>
+                    <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                    <a href=""> <i class="fa fa-linkedin team-icon"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="https://cdna.artstation.com/p/assets/images/images/023/576/078/original/ying-chen-me-optimize.gif?1579652163"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <p class="member-heading">Anamika Yadav</p>
+                  <span>UI designer</span>
+                  <p class="member-para">Hey!</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                    <a href=""><i class="fa fa-facebook-f team-icon"></i></a>
+                    <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                    <a href=""> <i class="fa fa-linkedin team-icon"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4" style="margin-left: 220px">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/49c16a38805735.57701dcdd452c.gif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <p class="member-heading">Ayush Panjiyar</p>
+                  <span>Developer</span>
+                  <p class="member-para">Hey!</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                    <a href=""><i class="fa fa-facebook-f team-icon"></i></a>
+                    <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                    <a href=""> <i class="fa fa-linkedin team-icon"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <%- include('partials/footer') %>
+  </body>
+</html>
